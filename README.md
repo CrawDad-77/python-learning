@@ -2,15 +2,22 @@
 
 Notebooks and notes for the **Google IT Automation with Python** course.
 
-## Structure
+## 📘 Crash Course on Python — Module Index
 
-- `module1_intro/` – Crash Course on Python (Module 1)
-  - `hello_colab.ipynb` – First Colab test notebook
+### **Module 1 – Getting Started with Python**
+➡️ [Module_01_Intro](Module_01_Intro/)
 
-More folders will be added as I move through the course:
+### **Module 2 – Basic Python Syntax**
+➡️ [Module_02_Basic_Python_Syntax](Module_02_Basic_Python_Syntax/)
 
-- `module2_os/` – Using Python to Interact with the Operating System
-- `module3_git_github/` – Introduction to Git and GitHub
-- `module4_troubleshooting/`
-- `module5_configuration_management/`
-- `module6_automation_project/`
+### **Module 3 – Loops**
+➡️ [Module_03_Loops](Module_03_Loops/)
+
+### **Module 4 – Strings**
+➡️ [Module_04_Strings](Module_04_Strings/)
+
+### **Module 5 – Lists**
+➡️ [Module_05_Lists](Module_05_Lists/)
+
+### **Module 6 – Dictionaries**
+➡️ [Module_06_Dictionaries](Module_06_Dictionaries/)
