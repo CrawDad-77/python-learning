@@ -1,3 +1,3 @@
-# Module 6 — Dictionaries
+Dictionaries
 
 Notebook and study notes for Coursera Module 6.
