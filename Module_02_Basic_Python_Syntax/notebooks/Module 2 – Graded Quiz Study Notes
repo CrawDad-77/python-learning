@@ -1,0 +1,118 @@
+Module 2 – Graded Quiz Study Notes
+
+Core Concepts
+
+Variable Assignment
+	•	Use = to assign values
+	•	= assigns, == compares
+
+Comparison Operators
+	•	==, !=, <, >, <=, >=
+	•	Return Boolean values (True / False)
+	•	Strings compare alphabetically (ASCII order)
+
+Logical Operators
+	•	and: both conditions True
+	•	or: at least one condition True
+	•	not: reverses Boolean value
+
+⸻
+
+Conditional Statements
+	•	if, elif, else
+	•	if and elif must end with :
+	•	Only one block executes
+	•	else has no condition
+	•	Indentation is required
+
+Execution order:
+	1.	if
+	2.	elif (checked only if previous is False)
+	3.	else (runs if all above are False)
+
+⸻
+
+Functions
+	•	Defined using def
+	•	Parameters receive values
+	•	return sends value back
+	•	print() only displays output
+
+Structure:
+
+def function_name(parameter):
+    code
+    return value
+
+
+⸻
+
+Arithmetic Operators
+	•	+ - * / basic math
+	•	// floor division
+	•	% modulo (remainder)
+
+Examples:
+	•	7 // 2 = 3
+	•	7 % 2 = 1
+
+⸻
+
+Quiz Skill Examples
+
+Nested Function Calls
+
+def product(a, b):
+    return a * b
+
+print(product(product(2,4), product(3,5)))
+
+Output: 120
+
+Complex Conditional Example
+
+def get_remainder(x, y):
+    if x == 0 or y == 0 or x == y:
+        remainder = 0
+    else:
+        remainder = (x % y) / y
+    return remainder
+
+print(get_remainder(10, 3))
+
+Output: 0.3333333333333333
+
+⸻
+
+Best Practices
+
+Self-Documenting Code
+	•	Clear variable names
+	•	Readable structure
+	•	Minimal comments needed
+
+⸻
+
+Common Syntax Errors
+	•	Missing :
+	•	Incorrect indentation
+	•	Misspelled keywords
+	•	Mixed or incorrect quotes
+	•	Case sensitivity errors
+	•	Using = instead of ==
+	•	Data type mismatches
+
+⸻
+
+Quiz Tips
+	•	Trace code step-by-step
+	•	Evaluate inner function calls first
+	•	Read conditions left to right
+	•	Syntax errors = zero credit
+
+Easy way to remember if / elif / else:
+	•	if → “Check this first”
+	•	elif → “If not that, check this” (backup choices)
+	•	else → “If nothing else worked, do this” (default)
+
+Memory trick: Only the first True wins.
